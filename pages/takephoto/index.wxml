@@ -1,0 +1,14 @@
+<view class="container">
+  <!-- <view class="circle" ></view> -->
+  <camera resolution="high" device-position="front" flash="off" binderror="error" class="egg" >
+       <cover-view >
+        <cover-image src='../../static/image/photo1.png' class='egg'></cover-image>
+      </cover-view>
+  </camera>
+  <button style="margin-top:50rpx" type="primary" bindtap="takePhoto">拍照</button>
+  <view>预览</view>
+  <image  class="egg"   mode="widthFix" src="{{src}}"></image>
+</view>
+
+
+

@@ -1,0 +1,23 @@
+<!-- 文件上传 -->
+<view class="container1">
+    <view class='ui_cell'>     
+          <view class='ui_cell_bd'>学生姓名：{{name}}</view>
+          <view class='ui_cell_bd'>学生学号：{{stuno}}</view>
+    </view>
+    <view>
+        <view class='ui_cell'>
+            <view class='ui_cell_bd'>人脸图片上传</view>
+            <view class='ui_cell_ft'>{{uploaderNum}}/1</view>
+        </view>
+        <view class='ui_uploader_cell'>
+            <view class='ui_uploader_item' wx:for="{{uploaderList}}" wx:key="{{index}}">
+                <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red"/>
+                <image bindtap='showImg' data-index="{{index}}" src='{{item}}'></image>
+            </view>
+            <view class='ui_uploader' bindtap='upload' wx:if="{{showUpload}}"></view>
+        </view>
+    </view>
+    <view  class="button-sp-area">
+        <button style="margin-top: 30rpx" type="primary" bindtap="upfile" plain="true">上传</button>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+/* pages/takephoto/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.circle {
+       width: 300px;
+       height: 300px;
+  }
+  .egg{
+    width:300px;
+    height:300px;
+    border-radius: 50% 50% 0 0/70% 70% 0 0;
+}

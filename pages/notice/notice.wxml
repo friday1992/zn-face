@@ -1,0 +1,16 @@
+<!--pages/notice/notice.wxml-->
+<view>
+    <view style="text-align:center">{{name}}人脸采集须知</view>
+    <view class="notice">1.采集人脸信息只用于学校安全管理；</view>
+    <view class="notice">2.本人须保证采集人脸信息为前面验证人员，否则一切后果由本人承担；</view>
+    <view class="notice">3.采集人脸必须严格按照下面规格要求，否则可能造成无法使用的麻烦；</view>
+    <view class="notice">4.本人及关联学生已了解以上要求，并同意遵照执行；</view>
+</view>
+<view class="flexbutton">
+      <view  >
+       <button class="mini-btn"  type="primary" bindtap="confirm" size="mini">确认</button>
+      </view>
+        <view style="margin-left:20px">
+         <button class="mini-btn" type="warn" bindtap="cancel" size="mini">放弃</button>
+      </view>
+</view>

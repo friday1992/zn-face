@@ -1,0 +1,27 @@
+{
+  "pages": [
+     "pages/takephoto/index",
+    "pages/takephoto2/index",
+   
+  
+   
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/bind/bind",
+    "pages/face/face",
+    "pages/notice/notice",
+    "pages/bindstudent/bindstudent",
+    "pages/facestudent/facestudent"
+  
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "人脸采集",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

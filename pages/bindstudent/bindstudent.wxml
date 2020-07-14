@@ -1,0 +1,7 @@
+<mp-cells title="个人人脸认证">
+    <l-input label="学生学号"  placeholder="请输入学生学号"  />
+    <l-input label="学生姓名"  placeholder="请输入学生姓名"  />
+</mp-cells>
+<view  class="center">
+    <l-button style="margin-top: 30rpx" size="large" type="default" bind:tap="submitForm">提交</l-button>
+</view>

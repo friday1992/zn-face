@@ -1,0 +1,11 @@
+/* pages/notice/notice.wxss */
+.flexbutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.notice{
+  margin-left: 5px;
+  color: #888888;
+}

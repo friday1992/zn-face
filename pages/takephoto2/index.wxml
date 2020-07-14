@@ -1,0 +1,10 @@
+<view class="container">
+  <!-- <view class="circle" ></view> -->
+  <camera resolution="high" device-position="front" flash="off" binderror="error" class="circle" >
+       <cover-view >
+        <cover-image src='../../static/image/photo2.png' class='circle'></cover-image>
+      </cover-view>
+  </camera>
+  <button style="margin-top:50rpx" type="primary" bindtap="takePhoto">拍照</button>
+  <image  class="circle"   mode="widthFix" src="{{src}}"></image>
+</view>
